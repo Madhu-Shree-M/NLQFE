@@ -1,0 +1,9 @@
+<!-- <p>search-ui works!</p> -->
+<div class="whole">
+      <div class="searchBox">
+        <div class="shadow"></div>
+          <input type="text" placeholder="Search..." [(ngModel)]="searchText">
+          <button (click)="search(searchText)"><mat-icon>search</mat-icon></button>
+      </div>
+</div>
+<app-mobiles-display [mobiles]="mobiles"></app-mobiles-display>

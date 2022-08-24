@@ -1,0 +1,10 @@
+<div class="cards"> 
+        <div  class="card" *ngFor="let mobile of mobiles">
+        <br><span class="title">{{ mobile.name }}</span><br>
+        <br><span class="subtitle">{{ mobile.brand }}</span><br>
+        <br><span class="content">Color: {{mobile.color}}<br>Price: {{mobile.price}}</span>
+        </div>
+        <!-- <div *ngIf="data==true">
+            <span>No mobiles available</span>
+        </div> -->
+</div>
